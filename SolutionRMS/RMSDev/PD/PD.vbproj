@@ -1,0 +1,1777 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{FDA655BD-3E44-4AFD-8130-1B7D6811D0F4}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "PD"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "PD"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Configuration" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Web" />
+                <Import Namespace = "System.Web.UI" />
+                <Import Namespace = "System.Web.UI.HtmlControls" />
+                <Import Namespace = "System.Web.UI.WebControls" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.vb"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <Folder RelPath = "etc\" />
+                <Folder RelPath = "images\" />
+                <Folder RelPath = "Rpt\" />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMACCLIST.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMACCLIST.aspx.vb"
+                    DependentUpon = "PDCMACCLIST.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMACCLIST.aspx.resx"
+                    DependentUpon = "PDCMACCLIST.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMACCLISTPOP.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMACCLISTPOP.aspx.vb"
+                    DependentUpon = "PDCMACCLISTPOP.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMACCLISTPOP.aspx.resx"
+                    DependentUpon = "PDCMACCLISTPOP.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMACCRUEDSEARCH.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMACCRUEDSEARCH.aspx.vb"
+                    DependentUpon = "PDCMACCRUEDSEARCH.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMACCRUEDSEARCH.aspx.resx"
+                    DependentUpon = "PDCMACCRUEDSEARCH.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMACCSEARCH.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMACCSEARCH.aspx.vb"
+                    DependentUpon = "PDCMACCSEARCH.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMACCSEARCH.aspx.resx"
+                    DependentUpon = "PDCMACCSEARCH.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMACTUALRATE.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMACTUALRATE.aspx.vb"
+                    DependentUpon = "PDCMACTUALRATE.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMACTUALRATE.aspx.resx"
+                    DependentUpon = "PDCMACTUALRATE.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMACTUALRATELISTPOP.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMACTUALRATELISTPOP.aspx.vb"
+                    DependentUpon = "PDCMACTUALRATELISTPOP.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMACTUALRATELISTPOP.aspx.resx"
+                    DependentUpon = "PDCMACTUALRATELISTPOP.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMACTUALRATEPOP.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMACTUALRATEPOP.aspx.vb"
+                    DependentUpon = "PDCMACTUALRATEPOP.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMACTUALRATEPOP.aspx.resx"
+                    DependentUpon = "PDCMACTUALRATEPOP.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMBATCHLOGLIST.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMBATCHLOGLIST.aspx.vb"
+                    DependentUpon = "PDCMBATCHLOGLIST.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMBATCHLOGLIST.aspx.resx"
+                    DependentUpon = "PDCMBATCHLOGLIST.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCHARGEBASICLIST.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCHARGEBASICLIST.aspx.vb"
+                    DependentUpon = "PDCMCHARGEBASICLIST.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCHARGEBASICLIST.aspx.resx"
+                    DependentUpon = "PDCMCHARGEBASICLIST.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCHARGEDIVLIST.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCHARGEDIVLIST.aspx.vb"
+                    DependentUpon = "PDCMCHARGEDIVLIST.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCHARGEDIVLIST.aspx.resx"
+                    DependentUpon = "PDCMCHARGEDIVLIST.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCHARGEEXMAIN01.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCHARGEEXMAIN01.aspx.vb"
+                    DependentUpon = "PDCMCHARGEEXMAIN01.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCHARGEEXMAIN01.aspx.resx"
+                    DependentUpon = "PDCMCHARGEEXMAIN01.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCHARGELISTPOP.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCHARGELISTPOP.aspx.vb"
+                    DependentUpon = "PDCMCHARGELISTPOP.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCHARGELISTPOP.aspx.resx"
+                    DependentUpon = "PDCMCHARGELISTPOP.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCLASSLIST.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCLASSLIST.aspx.vb"
+                    DependentUpon = "PDCMCLASSLIST.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCLASSLIST.aspx.resx"
+                    DependentUpon = "PDCMCLASSLIST.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCONTRACT.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCONTRACT.aspx.vb"
+                    DependentUpon = "PDCMCONTRACT.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCONTRACT.aspx.resx"
+                    DependentUpon = "PDCMCONTRACT.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCONTRACT_BASE.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCONTRACT_BASE.aspx.vb"
+                    DependentUpon = "PDCMCONTRACT_BASE.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCONTRACT_BASE.aspx.resx"
+                    DependentUpon = "PDCMCONTRACT_BASE.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCONTRACT_BASECONF.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCONTRACT_BASECONF.aspx.vb"
+                    DependentUpon = "PDCMCONTRACT_BASECONF.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCONTRACT_BASECONF.aspx.resx"
+                    DependentUpon = "PDCMCONTRACT_BASECONF.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCONTRACT_DTLPOP.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCONTRACT_DTLPOP.aspx.vb"
+                    DependentUpon = "PDCMCONTRACT_DTLPOP.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCONTRACT_DTLPOP.aspx.resx"
+                    DependentUpon = "PDCMCONTRACT_DTLPOP.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCONTRACT_EXE.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCONTRACT_EXE.aspx.vb"
+                    DependentUpon = "PDCMCONTRACT_EXE.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCONTRACT_EXE.aspx.resx"
+                    DependentUpon = "PDCMCONTRACT_EXE.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCONTRACT_EXE_POP.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCONTRACT_EXE_POP.aspx.vb"
+                    DependentUpon = "PDCMCONTRACT_EXE_POP.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCONTRACT_EXE_POP.aspx.resx"
+                    DependentUpon = "PDCMCONTRACT_EXE_POP.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCONTRACT_EXECONF.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCONTRACT_EXECONF.aspx.vb"
+                    DependentUpon = "PDCMCONTRACT_EXECONF.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCONTRACT_EXECONF.aspx.resx"
+                    DependentUpon = "PDCMCONTRACT_EXECONF.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCONTRACT_HADO.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCONTRACT_HADO.aspx.vb"
+                    DependentUpon = "PDCMCONTRACT_HADO.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCONTRACT_HADO.aspx.resx"
+                    DependentUpon = "PDCMCONTRACT_HADO.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCONTRACTPOP.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCONTRACTPOP.aspx.vb"
+                    DependentUpon = "PDCMCONTRACTPOP.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCONTRACTPOP.aspx.resx"
+                    DependentUpon = "PDCMCONTRACTPOP.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCREPART.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCREPART.aspx.vb"
+                    DependentUpon = "PDCMCREPART.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCREPART.aspx.resx"
+                    DependentUpon = "PDCMCREPART.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCUSTAGCLIST.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCUSTAGCLIST.aspx.vb"
+                    DependentUpon = "PDCMCUSTAGCLIST.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCUSTAGCLIST.aspx.resx"
+                    DependentUpon = "PDCMCUSTAGCLIST.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCUSTLISTSEARCH.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCUSTLISTSEARCH.aspx.vb"
+                    DependentUpon = "PDCMCUSTLISTSEARCH.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCUSTLISTSEARCH.aspx.resx"
+                    DependentUpon = "PDCMCUSTLISTSEARCH.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCUSTPOP.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCUSTPOP.aspx.vb"
+                    DependentUpon = "PDCMCUSTPOP.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCUSTPOP.aspx.resx"
+                    DependentUpon = "PDCMCUSTPOP.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCUSTSEQPOP.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCUSTSEQPOP.aspx.vb"
+                    DependentUpon = "PDCMCUSTSEQPOP.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMCUSTSEQPOP.aspx.resx"
+                    DependentUpon = "PDCMCUSTSEQPOP.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMDEMAND.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMDEMAND.aspx.vb"
+                    DependentUpon = "PDCMDEMAND.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMDEMAND.aspx.resx"
+                    DependentUpon = "PDCMDEMAND.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMDEMANDCONFIRM.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMDEMANDCONFIRM.aspx.vb"
+                    DependentUpon = "PDCMDEMANDCONFIRM.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMDEMANDCONFIRM.aspx.resx"
+                    DependentUpon = "PDCMDEMANDCONFIRM.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMDEMANDCONFIRM_USER.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMDEMANDCONFIRM_USER.aspx.vb"
+                    DependentUpon = "PDCMDEMANDCONFIRM_USER.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMDEMANDCONFIRM_USER.aspx.resx"
+                    DependentUpon = "PDCMDEMANDCONFIRM_USER.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMDEMANDLIST.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMDEMANDLIST.aspx.vb"
+                    DependentUpon = "PDCMDEMANDLIST.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMDEMANDLIST.aspx.resx"
+                    DependentUpon = "PDCMDEMANDLIST.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMDEMANDLIST_CONFIRM.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMDEMANDLIST_CONFIRM.aspx.vb"
+                    DependentUpon = "PDCMDEMANDLIST_CONFIRM.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMDEMANDLIST_CONFIRM.aspx.resx"
+                    DependentUpon = "PDCMDEMANDLIST_CONFIRM.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMDEMANDPOP.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMDEMANDPOP.aspx.vb"
+                    DependentUpon = "PDCMDEMANDPOP.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMDEMANDPOP.aspx.resx"
+                    DependentUpon = "PDCMDEMANDPOP.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMDEMANDRETURN.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMDEMANDRETURN.aspx.vb"
+                    DependentUpon = "PDCMDEMANDRETURN.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMDEMANDRETURN.aspx.resx"
+                    DependentUpon = "PDCMDEMANDRETURN.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMDEPTPOP.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMDEPTPOP.aspx.vb"
+                    DependentUpon = "PDCMDEPTPOP.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMDEPTPOP.aspx.resx"
+                    DependentUpon = "PDCMDEPTPOP.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMDIVAMT.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMDIVAMT.aspx.vb"
+                    DependentUpon = "PDCMDIVAMT.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMDIVAMT.aspx.resx"
+                    DependentUpon = "PDCMDIVAMT.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMDIVAMTPOP.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMDIVAMTPOP.aspx.vb"
+                    DependentUpon = "PDCMDIVAMTPOP.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMDIVAMTPOP.aspx.resx"
+                    DependentUpon = "PDCMDIVAMTPOP.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMEMPAUTHPOP.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMEMPAUTHPOP.aspx.vb"
+                    DependentUpon = "PDCMEMPAUTHPOP.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMEMPAUTHPOP.aspx.resx"
+                    DependentUpon = "PDCMEMPAUTHPOP.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMEMPPOP.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMEMPPOP.aspx.vb"
+                    DependentUpon = "PDCMEMPPOP.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMEMPPOP.aspx.resx"
+                    DependentUpon = "PDCMEMPPOP.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMEMPPOP_MANAGER.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMEMPPOP_MANAGER.aspx.vb"
+                    DependentUpon = "PDCMEMPPOP_MANAGER.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMEMPPOP_MANAGER.aspx.resx"
+                    DependentUpon = "PDCMEMPPOP_MANAGER.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMESTDTL.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMESTDTL.aspx.vb"
+                    DependentUpon = "PDCMESTDTL.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMESTDTL.aspx.resx"
+                    DependentUpon = "PDCMESTDTL.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMESTDTL_CONFIRM.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMESTDTL_CONFIRM.aspx.vb"
+                    DependentUpon = "PDCMESTDTL_CONFIRM.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMESTDTL_CONFIRM.aspx.resx"
+                    DependentUpon = "PDCMESTDTL_CONFIRM.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMESTDTLSRC.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMESTDTLSRC.aspx.vb"
+                    DependentUpon = "PDCMESTDTLSRC.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMESTDTLSRC.aspx.resx"
+                    DependentUpon = "PDCMESTDTLSRC.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMESTTYPE.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMESTTYPE.aspx.vb"
+                    DependentUpon = "PDCMESTTYPE.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMESTTYPE.aspx.resx"
+                    DependentUpon = "PDCMESTTYPE.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMESTTYPE_SUBITEM.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMESTTYPE_SUBITEM.aspx.vb"
+                    DependentUpon = "PDCMESTTYPE_SUBITEM.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMESTTYPE_SUBITEM.aspx.resx"
+                    DependentUpon = "PDCMESTTYPE_SUBITEM.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMESTTYPEPOP.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMESTTYPEPOP.aspx.vb"
+                    DependentUpon = "PDCMESTTYPEPOP.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMESTTYPEPOP.aspx.resx"
+                    DependentUpon = "PDCMESTTYPEPOP.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMEXECUSTPOP.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMEXECUSTPOP.aspx.vb"
+                    DependentUpon = "PDCMEXECUSTPOP.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMEXECUSTPOP.aspx.resx"
+                    DependentUpon = "PDCMEXECUSTPOP.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMEXEENDLIST.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMEXEENDLIST.aspx.vb"
+                    DependentUpon = "PDCMEXEENDLIST.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMEXEENDLIST.aspx.resx"
+                    DependentUpon = "PDCMEXEENDLIST.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMEXELIST.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMEXELIST.aspx.vb"
+                    DependentUpon = "PDCMEXELIST.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMEXELIST.aspx.resx"
+                    DependentUpon = "PDCMEXELIST.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMEXELISTPOP.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMEXELISTPOP.aspx.vb"
+                    DependentUpon = "PDCMEXELISTPOP.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMEXELISTPOP.aspx.resx"
+                    DependentUpon = "PDCMEXELISTPOP.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMFINISHLIST.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMFINISHLIST.aspx.vb"
+                    DependentUpon = "PDCMFINISHLIST.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMFINISHLIST.aspx.resx"
+                    DependentUpon = "PDCMFINISHLIST.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMHIGHCUSTGROUPPOP.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMHIGHCUSTGROUPPOP.aspx.vb"
+                    DependentUpon = "PDCMHIGHCUSTGROUPPOP.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMHIGHCUSTGROUPPOP.aspx.resx"
+                    DependentUpon = "PDCMHIGHCUSTGROUPPOP.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMINSJOBNOPOP.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMINSJOBNOPOP.aspx.vb"
+                    DependentUpon = "PDCMINSJOBNOPOP.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMINSJOBNOPOP.aspx.resx"
+                    DependentUpon = "PDCMINSJOBNOPOP.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMINSJOBNOPOP2.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMINSJOBNOPOP2.aspx.vb"
+                    DependentUpon = "PDCMINSJOBNOPOP2.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMINSJOBNOPOP2.aspx.resx"
+                    DependentUpon = "PDCMINSJOBNOPOP2.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMITEMCLASSPOP.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMITEMCLASSPOP.aspx.vb"
+                    DependentUpon = "PDCMITEMCLASSPOP.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMITEMCLASSPOP.aspx.resx"
+                    DependentUpon = "PDCMITEMCLASSPOP.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMITEMDIVPOP.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMITEMDIVPOP.aspx.vb"
+                    DependentUpon = "PDCMITEMDIVPOP.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMITEMDIVPOP.aspx.resx"
+                    DependentUpon = "PDCMITEMDIVPOP.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMITEMLIST.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMITEMLIST.aspx.vb"
+                    DependentUpon = "PDCMITEMLIST.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMITEMLIST.aspx.resx"
+                    DependentUpon = "PDCMITEMLIST.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMITEMPOP.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMITEMPOP.aspx.vb"
+                    DependentUpon = "PDCMITEMPOP.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMITEMPOP.aspx.resx"
+                    DependentUpon = "PDCMITEMPOP.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOB.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOB.aspx.vb"
+                    DependentUpon = "PDCMJOB.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOB.aspx.resx"
+                    DependentUpon = "PDCMJOB.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBMODY.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBMODY.aspx.vb"
+                    DependentUpon = "PDCMJOBMODY.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBMODY.aspx.resx"
+                    DependentUpon = "PDCMJOBMODY.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBMST.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBMST.aspx.vb"
+                    DependentUpon = "PDCMJOBMST.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBMST.aspx.resx"
+                    DependentUpon = "PDCMJOBMST.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBMST_CFINPUT.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBMST_CFINPUT.aspx.vb"
+                    DependentUpon = "PDCMJOBMST_CFINPUT.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBMST_CFINPUT.aspx.resx"
+                    DependentUpon = "PDCMJOBMST_CFINPUT.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBMST_ESTDTL.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBMST_ESTDTL.aspx.vb"
+                    DependentUpon = "PDCMJOBMST_ESTDTL.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBMST_ESTDTL.aspx.resx"
+                    DependentUpon = "PDCMJOBMST_ESTDTL.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBMST_ESTLIST.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBMST_ESTLIST.aspx.vb"
+                    DependentUpon = "PDCMJOBMST_ESTLIST.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBMST_ESTLIST.aspx.resx"
+                    DependentUpon = "PDCMJOBMST_ESTLIST.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBMST_INDIRECTCOST.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBMST_INDIRECTCOST.aspx.vb"
+                    DependentUpon = "PDCMJOBMST_INDIRECTCOST.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBMST_INDIRECTCOST.aspx.resx"
+                    DependentUpon = "PDCMJOBMST_INDIRECTCOST.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBMST_PREESTCONFIRM.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBMST_PREESTCONFIRM.aspx.vb"
+                    DependentUpon = "PDCMJOBMST_PREESTCONFIRM.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBMST_PREESTCONFIRM.aspx.resx"
+                    DependentUpon = "PDCMJOBMST_PREESTCONFIRM.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBMST_SUBITEM.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBMST_SUBITEM.aspx.vb"
+                    DependentUpon = "PDCMJOBMST_SUBITEM.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBMST_SUBITEM.aspx.resx"
+                    DependentUpon = "PDCMJOBMST_SUBITEM.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBNO.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBNO.aspx.vb"
+                    DependentUpon = "PDCMJOBNO.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBNO.aspx.resx"
+                    DependentUpon = "PDCMJOBNO.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBNODETAIL.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBNODETAIL.aspx.vb"
+                    DependentUpon = "PDCMJOBNODETAIL.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBNODETAIL.aspx.resx"
+                    DependentUpon = "PDCMJOBNODETAIL.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBNONEW.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBNONEW.aspx.vb"
+                    DependentUpon = "PDCMJOBNONEW.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBNONEW.aspx.resx"
+                    DependentUpon = "PDCMJOBNONEW.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBNOPOP.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBNOPOP.aspx.vb"
+                    DependentUpon = "PDCMJOBNOPOP.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBNOPOP.aspx.resx"
+                    DependentUpon = "PDCMJOBNOPOP.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBNOPOP_SALE.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBNOPOP_SALE.aspx.vb"
+                    DependentUpon = "PDCMJOBNOPOP_SALE.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBNOPOP_SALE.aspx.resx"
+                    DependentUpon = "PDCMJOBNOPOP_SALE.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBSTATUS.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBSTATUS.aspx.vb"
+                    DependentUpon = "PDCMJOBSTATUS.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBSTATUS.aspx.resx"
+                    DependentUpon = "PDCMJOBSTATUS.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBSTATUSMANAGER.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBSTATUSMANAGER.aspx.vb"
+                    DependentUpon = "PDCMJOBSTATUSMANAGER.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMJOBSTATUSMANAGER.aspx.resx"
+                    DependentUpon = "PDCMJOBSTATUSMANAGER.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMMERGELIST.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMMERGELIST.aspx.vb"
+                    DependentUpon = "PDCMMERGELIST.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMMERGELIST.aspx.resx"
+                    DependentUpon = "PDCMMERGELIST.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMMERGETAX.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMMERGETAX.aspx.vb"
+                    DependentUpon = "PDCMMERGETAX.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMMERGETAX.aspx.resx"
+                    DependentUpon = "PDCMMERGETAX.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMMERGETAXDTL.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMMERGETAXDTL.aspx.vb"
+                    DependentUpon = "PDCMMERGETAXDTL.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMMERGETAXDTL.aspx.resx"
+                    DependentUpon = "PDCMMERGETAXDTL.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMMERGEVOCH.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMMERGEVOCH.aspx.vb"
+                    DependentUpon = "PDCMMERGEVOCH.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMMERGEVOCH.aspx.resx"
+                    DependentUpon = "PDCMMERGEVOCH.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMMODYPOP.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMMODYPOP.aspx.vb"
+                    DependentUpon = "PDCMMODYPOP.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMMODYPOP.aspx.resx"
+                    DependentUpon = "PDCMMODYPOP.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMOUTSETTLE.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMOUTSETTLE.aspx.vb"
+                    DependentUpon = "PDCMOUTSETTLE.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMOUTSETTLE.aspx.resx"
+                    DependentUpon = "PDCMOUTSETTLE.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMOUTSLIST.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMOUTSLIST.aspx.vb"
+                    DependentUpon = "PDCMOUTSLIST.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMOUTSLIST.aspx.resx"
+                    DependentUpon = "PDCMOUTSLIST.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMOUTSLIST_bak.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMOUTSLIST_bak.aspx.vb"
+                    DependentUpon = "PDCMOUTSLIST_bak.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMOUTSLIST_bak.aspx.resx"
+                    DependentUpon = "PDCMOUTSLIST_bak.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMOUTSLISTSEARCH.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMOUTSLISTSEARCH.aspx.vb"
+                    DependentUpon = "PDCMOUTSLISTSEARCH.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMOUTSLISTSEARCH.aspx.resx"
+                    DependentUpon = "PDCMOUTSLISTSEARCH.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMOUTSPAYLIST.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMOUTSPAYLIST.aspx.vb"
+                    DependentUpon = "PDCMOUTSPAYLIST.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMOUTSPAYLIST.aspx.resx"
+                    DependentUpon = "PDCMOUTSPAYLIST.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMPONO.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMPONO.aspx.vb"
+                    DependentUpon = "PDCMPONO.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMPONO.aspx.resx"
+                    DependentUpon = "PDCMPONO.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMPONOPOP.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMPONOPOP.aspx.vb"
+                    DependentUpon = "PDCMPONOPOP.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMPONOPOP.aspx.resx"
+                    DependentUpon = "PDCMPONOPOP.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMPREDEMANDSEARCH.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMPREDEMANDSEARCH.aspx.vb"
+                    DependentUpon = "PDCMPREDEMANDSEARCH.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMPREDEMANDSEARCH.aspx.resx"
+                    DependentUpon = "PDCMPREDEMANDSEARCH.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMPREESTDTL.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMPREESTDTL.aspx.vb"
+                    DependentUpon = "PDCMPREESTDTL.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMPREESTDTL.aspx.resx"
+                    DependentUpon = "PDCMPREESTDTL.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMPREESTDTLNEW.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMPREESTDTLNEW.aspx.vb"
+                    DependentUpon = "PDCMPREESTDTLNEW.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMPREESTDTLNEW.aspx.resx"
+                    DependentUpon = "PDCMPREESTDTLNEW.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMPREESTLIST.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMPREESTLIST.aspx.vb"
+                    DependentUpon = "PDCMPREESTLIST.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMPREESTLIST.aspx.resx"
+                    DependentUpon = "PDCMPREESTLIST.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMPREEXEVOCH.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMPREEXEVOCH.aspx.vb"
+                    DependentUpon = "PDCMPREEXEVOCH.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMPREEXEVOCH.aspx.resx"
+                    DependentUpon = "PDCMPREEXEVOCH.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMPREPAYMENTSEARCH.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMPREPAYMENTSEARCH.aspx.vb"
+                    DependentUpon = "PDCMPREPAYMENTSEARCH.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMPREPAYMENTSEARCH.aspx.resx"
+                    DependentUpon = "PDCMPREPAYMENTSEARCH.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMPROJECTJOBLIST.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMPROJECTJOBLIST.aspx.vb"
+                    DependentUpon = "PDCMPROJECTJOBLIST.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMPROJECTJOBLIST.aspx.resx"
+                    DependentUpon = "PDCMPROJECTJOBLIST.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMPROJECTLIST.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMPROJECTLIST.aspx.vb"
+                    DependentUpon = "PDCMPROJECTLIST.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMPROJECTLIST.aspx.resx"
+                    DependentUpon = "PDCMPROJECTLIST.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMROLELIST.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMROLELIST.aspx.vb"
+                    DependentUpon = "PDCMROLELIST.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMROLELIST.aspx.resx"
+                    DependentUpon = "PDCMROLELIST.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMSUMMARYLIST.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMSUMMARYLIST.aspx.vb"
+                    DependentUpon = "PDCMSUMMARYLIST.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMSUMMARYLIST.aspx.resx"
+                    DependentUpon = "PDCMSUMMARYLIST.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMTAXDTL.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMTAXDTL.aspx.vb"
+                    DependentUpon = "PDCMTAXDTL.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMTAXDTL.aspx.resx"
+                    DependentUpon = "PDCMTAXDTL.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMTAXPOP.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMTAXPOP.aspx.vb"
+                    DependentUpon = "PDCMTAXPOP.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMTAXPOP.aspx.resx"
+                    DependentUpon = "PDCMTAXPOP.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMTIMPOP.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMTIMPOP.aspx.vb"
+                    DependentUpon = "PDCMTIMPOP.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMTIMPOP.aspx.resx"
+                    DependentUpon = "PDCMTIMPOP.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMTOTALSEARCH.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMTOTALSEARCH.aspx.vb"
+                    DependentUpon = "PDCMTOTALSEARCH.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMTOTALSEARCH.aspx.resx"
+                    DependentUpon = "PDCMTOTALSEARCH.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMTRANS.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMTRANS.aspx.vb"
+                    DependentUpon = "PDCMTRANS.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMTRANS.aspx.resx"
+                    DependentUpon = "PDCMTRANS.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMTRANSCONFLIST.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMTRANSCONFLIST.aspx.vb"
+                    DependentUpon = "PDCMTRANSCONFLIST.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMTRANSCONFLIST.aspx.resx"
+                    DependentUpon = "PDCMTRANSCONFLIST.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMTRANSDTL.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMTRANSDTL.aspx.vb"
+                    DependentUpon = "PDCMTRANSDTL.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMTRANSDTL.aspx.resx"
+                    DependentUpon = "PDCMTRANSDTL.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMTRANSLIST.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMTRANSLIST.aspx.vb"
+                    DependentUpon = "PDCMTRANSLIST.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMTRANSLIST.aspx.resx"
+                    DependentUpon = "PDCMTRANSLIST.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMTRANSPOP.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMTRANSPOP.aspx.vb"
+                    DependentUpon = "PDCMTRANSPOP.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMTRANSPOP.aspx.resx"
+                    DependentUpon = "PDCMTRANSPOP.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMTRUTAX.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMTRUTAX.aspx.vb"
+                    DependentUpon = "PDCMTRUTAX.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMTRUTAX.aspx.resx"
+                    DependentUpon = "PDCMTRUTAX.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMTRUTAXDTL.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMTRUTAXDTL.aspx.vb"
+                    DependentUpon = "PDCMTRUTAXDTL.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMTRUTAXDTL.aspx.resx"
+                    DependentUpon = "PDCMTRUTAXDTL.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMTRUVOCHFILEPOP.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMTRUVOCHFILEPOP.aspx.vb"
+                    DependentUpon = "PDCMTRUVOCHFILEPOP.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMTRUVOCHFILEPOP.aspx.resx"
+                    DependentUpon = "PDCMTRUVOCHFILEPOP.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMVOCH.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMVOCH.aspx.vb"
+                    DependentUpon = "PDCMVOCH.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMVOCH.aspx.resx"
+                    DependentUpon = "PDCMVOCH.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMVOCHMST.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMVOCHMST.aspx.vb"
+                    DependentUpon = "PDCMVOCHMST.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SrcWeb\PDCO\PDCMVOCHMST.aspx.resx"
+                    DependentUpon = "PDCMVOCHMST.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+

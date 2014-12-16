@@ -1,0 +1,89 @@
+How to upgrade an ASP RDC application from version 8.x to version 9 of CR
+
+The information in the article refers to:
+Crystal Reports 9
+ 
+ 
+Applies to: 
+ 
+Reported version only
+ASP Reports Server
+Migrating ASP application
+Upgrading ASP code
+ 
+
+Synopsis
+
+How do you upgrade your ASP (Active Server Pages) Report Designer Component (RDC) application from version 8.x to version 9 of Crystal Reports (CR)?
+
+Solution
+
+To upgrade your ASP RDC application from version 8.x to version 9 of Crystal Reports (CR), complete the following steps: 
+
+==================== 
+NOTE: 
+
+It is recommended that you make a backup of your ASP RDC application before upgrading it. 
+==================== 
+
+1. Copy the following items from the "¡¦\Program Files\Crystal Decisions\Crystal Reports 9\Samples\En\Code\Web\Report Designer Component" folder to your ASP RDC application folder, overwriting the previous versions: 
+
+Rptserver.asp 
+SmartViewerActiveX.asp - ActiveX Viewer (Internet Explorer) 
+ActiveXPluginViewer.asp - ActiveX Viewer (Netscape Navigator) 
+JavaPluginViewer.asp - Java Plug-in Viewer 
+SmartViewerJava.asp - Java Viewer 
+Htmstart.asp - HTML Viewer 
+Framepage.asp - HTML Viewer 
+Toolbar.asp - HTML Viewer 
+Images folder - HTML Viewer 
+
+==================== 
+NOTE: 
+
+If you want to use version 9 of the ActiveX Viewer in a CR 8.5 ASP RDC application, then in the 'SmartViewerActiveX.asp' file set the value of the 'CLASSID' variable as follows: 
+
+CLASSID="CLSID:2DEF4530-8CE6-41c9-84B6-A54536C90213" 
+
+This is a known issue with Crystal Reports 9 (English) and has been tracked. The Track ID is: ADAPT00054804. 
+
+==================== 
+
+2. If you have CR 8.5 and 9 installed on the same computer, change this line of code in your ASP RDC application: 
+
+set Session("oApp") = Server.Createobject("CrystalRuntime.Application") 
+
+to 
+
+set Session("oApp") = Server.Createobject("CrystalRuntime.Application.9") 
+
+3. If you have a COM + or Microsoft Transaction package that includes the file 'Craxdrt.dll', delete and recreate it so that it instead uses the file 'Craxdrt9.dll'. 
+
+4. It is recommended that you destroy the Crystal 'oApp', 'oRpt', and 'oPageEngine' objects after the user exits the ASP RDC application. 
+
+In IIS 5.0 you can destroy the Crystal objects by using the following sample code: 
+
+Session.Contents.Remove("oPageEngine") 
+Session.Contents.Remove("oRpt") 
+Session.Contents.Remove("oApp") 
+
+The 'Session.abandon' method will also work, however, this method will destroy all objects stored in session, including non-Crystal objects. 
+
+
+After these changes are made, the ASP RDC application now runs in a Crystal Reports 9 environment. 
+
+
+Background 
+---------- 
+In previous versions of the RDC, licensing is based on concurrent usage. The script 'cleanup.asp' destroys the Crystal objects, which in turn decrements the number of licenses used. 
+
+However, in CR 9 the RDC licensing model is now based on processing threads. A thread (license) is only in use while the user is making a request to the server. 
+
+With this new threading model, the script 'cleanup.asp' is no longer required. However, it is recommended that you destroy the objects in your Crystal ASP RDC application once the user exits the application. 
+
+
+Additional Information 
+-------------------------- 
+If your ASP application uses the Automation Server (Cpeaut32.dll) it will need to be upgraded to use the Report Designer Component (Craxdrt.dll). For information on upgrading from the Automation Server to the Report Designer Component (RDC), search for KBase article 'c2006178' on our support site at: 
+
+================================================

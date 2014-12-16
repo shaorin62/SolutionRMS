@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MD", "http://localhost/RMSDev/MD/MD.vbproj", "{167A6C6E-C82D-49C4-8ABD-5DB87F1C5F1B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PD", "http://localhost/RMSDev/PD/PD.vbproj", "{FDA655BD-3E44-4AFD-8130-1B7D6811D0F4}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SC", "http://localhost/RMSDev/SC/SC.vbproj", "{FD65D13D-3FBD-4832-8892-B3B8567C282C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{167A6C6E-C82D-49C4-8ABD-5DB87F1C5F1B}.Debug.ActiveCfg = Debug|.NET
+		{167A6C6E-C82D-49C4-8ABD-5DB87F1C5F1B}.Debug.Build.0 = Debug|.NET
+		{167A6C6E-C82D-49C4-8ABD-5DB87F1C5F1B}.Release.ActiveCfg = Release|.NET
+		{167A6C6E-C82D-49C4-8ABD-5DB87F1C5F1B}.Release.Build.0 = Release|.NET
+		{FDA655BD-3E44-4AFD-8130-1B7D6811D0F4}.Debug.ActiveCfg = Debug|.NET
+		{FDA655BD-3E44-4AFD-8130-1B7D6811D0F4}.Debug.Build.0 = Debug|.NET
+		{FDA655BD-3E44-4AFD-8130-1B7D6811D0F4}.Release.ActiveCfg = Release|.NET
+		{FDA655BD-3E44-4AFD-8130-1B7D6811D0F4}.Release.Build.0 = Release|.NET
+		{FD65D13D-3FBD-4832-8892-B3B8567C282C}.Debug.ActiveCfg = Debug|.NET
+		{FD65D13D-3FBD-4832-8892-B3B8567C282C}.Debug.Build.0 = Debug|.NET
+		{FD65D13D-3FBD-4832-8892-B3B8567C282C}.Release.ActiveCfg = Release|.NET
+		{FD65D13D-3FBD-4832-8892-B3B8567C282C}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<EFPROJECT>
+    <GENERAL>
+        <BANNER>Microsoft Visual Studio Application Template File</BANNER>
+        <VERSION>1.00</VERSION>
+        <Views>
+            <ProjectExplorer>
+                <Folder>
+                    <FOLDERNAME>SrcSvr</FOLDERNAME>
+                    <File>SrcSvr\ePDCO\ePDCO.vbproj</File>
+                    <File>SrcSvr\cPDCO\cPDCO.vbproj</File>
+                </Folder>
+                <Folder>
+                    <FOLDERNAME>bin</FOLDERNAME>
+                </Folder>
+            </ProjectExplorer>
+        </Views>
+        <References>
+            <Reference>
+                <FILE>SrcSvr\ePDCO\ePDCO.vbproj</FILE>
+                <GUIDPROJECTID>{72AE4EE6-ACCB-47B8-8DC8-C397EC3AAADF}</GUIDPROJECTID>
+            </Reference>
+            <Reference>
+                <FILE>SrcSvr\cPDCO\cPDCO.vbproj</FILE>
+                <GUIDPROJECTID>{71A3EBFB-7FF4-49C1-9449-86B7F49E25BE}</GUIDPROJECTID>
+            </Reference>
+        </References>
+    </GENERAL>
+</EFPROJECT>

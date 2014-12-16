@@ -1,0 +1,67 @@
+﻿<style type="text/css">
+  input {border:#B9B9B9 1 solid ; background-color:#B9B9B9;  height:19}
+  textarea {border:#666666 1 solid ; background-color:#F5F5F5; }
+</style>
+<style type="text/css">
+
+body 
+
+{scrollbar-face-color:#FFFFFF;
+
+ scrollbar-highlight-color:  #666666;
+
+ scrollbar-3dlight-color: #FFFFFF;
+
+ scrollbar-shadow-color:  #666666;
+
+ scrollbar-darkshadow-color: #FFFFFF;
+
+ scrollbar-track-color: #FFFFFF;
+
+ scrollbar-arrow-color:  #666666}
+
+
+
+body { FONT-FAMILY: ƼƼü,seoul,helvetica; FONT-SIZE: 9pt; LINE-HEIGHT: normal; COLOR: #555555 ; TEXT-DECORATION: none }
+td { font-size: 9pt;TEXT-DECORATION: none }
+
+a:link { FONT-FAMILY: ƼƼü,seoul,helvetica; FONT-SIZE: 9pt; LINE-HEIGHT: normal; COLOR: #555555; TEXT-DECORATION: none }
+a:visited { FONT-FAMILY: ƼƼü,seoul,helvetica; FONT-SIZE:9pt; LINE-HEIGHT: normal; COLOR:#555555 ; TEXT-DECORATION: none }
+a:active { FONT-FAMILY: ƼƼü,seoul,helvetica; FONT-SIZE: 9pt; LINE-HEIGHT: normal; COLOR: #555555; TEXT-DECORATION: none }
+a:hover { FONT-FAMILY: ƼƼü,seoul,helvetica; FONT-SIZE: 9pt; LINE-HEIGHT: normal; COLOR: #ff9900; TEXT-DECORATION: underline }
+
+.textarea { FONT-FAMILY: ƼƼü,seoul,helvetica; FONT-SIZE: 9pt;BORDER-BOTTOM: #666666 1px solid; BORDER-LEFT: #666666 1px solid; BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #666666 1px solid; COLOR: 666666;}
+.select { FONT-FAMILY: ƼƼü,seoul,helvetica; FONT-SIZE: 9pt;BORDER-BOTTOM: #666666 1px solid; BORDER-LEFT: #666666 1px solid; BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #666666 1px solid; COLOR: 666666;}
+
+
+.sub A:link { FONT-FAMILY: ƼƼü,seoul,helvetica; FONT-SIZE: 9pt; LINE-HEIGHT: normal; COLOR: #FFFFFF; TEXT-DECORATION: none }
+.sub A:visited { FONT-FAMILY: ƼƼü,seoul,helvetica; FONT-SIZE:9pt; LINE-HEIGHT: normal; COLOR:#FFFFFF ; TEXT-DECORATION: none }
+.sub A:active { FONT-FAMILY: ƼƼü,seoul,helvetica; FONT-SIZE: 9pt; LINE-HEIGHT: normal; COLOR: #FFFFFF; TEXT-DECORATION: none }
+.sub A:hover { FONT-FAMILY: ƼƼü,seoul,helvetica; FONT-SIZE: 9pt; LINE-HEIGHT: normal; COLOR: #FFFFFF; TEXT-DECORATION: underline }
+
+.textarea { FONT-FAMILY: ƼƼü,seoul,helvetica; FONT-SIZE: 9pt;BORDER-BOTTOM: #666666 1px solid; BORDER-LEFT: #666666 1px solid; BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #666666 1px solid; COLOR: 666666;}
+
+.box { FONT-FAMILY: ƼƼü,seoul,helvetica; FONT-SIZE: 9pt;BORDER-BOTTOM: 1px solid #b2b2b2 ;BORDER-LEFT: 1px solid #b2b2b2 ; BORDER-RIGHT: 1px solid #b2b2b2 ; BORDER-TOP: 1px solid #b2b2b2 ; height : 18px}
+
+.myHide
+	{
+	font-family: 굴림;
+	font-size: 12px;
+	color: black;
+	background-color: white;
+	position: absolute;
+	visibility: hidden;
+	width: 300px;
+	height: 60px;
+	border: 1px solid black;
+	FILTER: revealTrans(Transition=23, Duration=0.5);
+	padding: 4px;
+	line-height: 14px;
+	left: 300;
+	top: 500;
+
+
+	}
+
+
+</style>

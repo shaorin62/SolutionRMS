@@ -1,0 +1,66 @@
+/* CSS Document */
+
+/* ±âº» */
+body {font-family: µ¸¿ò,arial,verdana,; font-size: 12px; color: #555555; line-height:13px;}
+body { /* page margin*/
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+
+	/* scrollbar */
+	scrollbar-face-color: #ffffff; 
+	scrollbar-shadow-color:#FFFFFF; 
+	scrollbar-highlight-color:#FFFFFF; 
+	scrollbar-3dlight-color: #ddded9;
+	scrollbar-darkshadow-color: #b6b6b6; 
+	scrollbar-track-color: #EFEFEF; 
+	scrollbar-arrow-color: #b6b6b6; 
+	overflow-x: hidden;
+}
+
+/*º»¹® */
+td {font-family: µ¸¿ò,arial,verdana,; font-size: 12px; color: #333333; line-height:17px; letter-spacing: -0.01em;}
+table, tr, td, img, select {border-collapse:collapse;}
+
+
+A {color: #777; line-height:16px;}
+A:link { font-size: 12px; color: #777; text-decoration:none}
+A:visited { font-size: 12px; color: #777; text-decoration:none}
+A:active { font-size: 12px; color: #777; text-decoration:none}
+A:hover { font-size: 12px; color: #164a91; letter-spacing: -0.01em; text-decoration:underline;}
+
+/* ÀÌ¹ÌÁö */
+img {border-width: 0px;}
+
+
+
+/* userÁ¤º¸ */
+.user_txt01 { padding: 3 2 0 3; font-size: 12px; color:#46558a; font-weight: bold;}
+.user_txt02 {font-size: 8pt; color: #717171; font-family: µ¸¿ò; height: 10px; background-color: none; text-align: left;}
+
+.topmenu3  a:link {background-color:#357a85; font-Size: 12px; text-decoration: none ; color:#c3d7db;  cursor:hand;  padding: 4 0 2 0;}
+.topmenu3  a:visited {background-color:#357a85; font-Size: 12px; text-decoration: none ; color:#c3d7db;}
+.topmenu3 a:active {background-color:#357a85; font-Size: 12px; text-decoration: none ; color:#c3d7db;}
+.topmenu3  a:hover {background-color:#357a85; font-Size: 12px; color:#c3d7db; text-decoration: none ;  padding: 4 0 0 0;}
+
+/*leftmenu */
+	
+.left_menu   {padding-right: 5px;  font-size: 22px; color: #333333; font-family: À±°íµñ310; text-align: left;  font-weight: bold;} 
+a.left_menu:link { color: #fff;  text-decoration:none; letter-spacing: -0.01em; line-height:13px;}
+a.left_menu:visited { color: #fff; text-decoration:none; letter-spacing: -0.01em; line-height:13px; } 
+a.left_menu:active { font-size: 12px; color: #fff; text-decoration:none; letter-spacing: -0.01em; line-height:13px;}
+a.left_menu:hover { font-size: 12px; color: #fff; text-decoration:none; letter-spacing: -0.01em; line-height:13px;}
+
+.left_menu2  {padding-right: 5px;font-size: 8pt; color: #414141; font-family: µ¸¿ò; height: 10px;background-color: none;text-align: left; font-weight: bold;	} 	
+
+a.left_menu2:link { color: #414141;  text-decoration:none; letter-spacing: -0.01em; line-height:13px;}
+a.left_menu2:visited { color: #414141; text-decoration:none; letter-spacing: -0.01em; line-height:13px; } 
+a.left_menu2:active { font-size: 12px; color: #164a91; text-decoration:none; letter-spacing: -0.01em; line-height:13px;}
+a.left_menu2:hover { font-size: 12px; color: #164a91; text-decoration:none; letter-spacing: -0.01em; line-height:13px;}
+
+a.left_menu3:link { font-size: 8pt;  color: #717171; text-decoration:none; letter-spacing: -0.01em; line-height:18px;}
+a.left_menu3:visited {font-size: 8pt;  color: #717171;  text-decoration:none; letter-spacing: -0.01em; line-height:18px;} 
+a.left_menu3:active { font-size: 8px; color: #717171; text-decoration:none; letter-spacing: -0.01em; line-height:18px;}
+a.left_menu3:hover { font-size: 8px; color: #717171; text-decoration:none; letter-spacing: -0.01em; line-height:18px; background-color: #e5eff2;}
+

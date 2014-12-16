@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<EFPROJECT>
+    <GENERAL>
+        <BANNER>Microsoft Visual Studio Application Template File</BANNER>
+        <VERSION>1.00</VERSION>
+        <Views>
+            <ProjectExplorer>
+                <Folder>
+                    <FOLDERNAME>SrcSvr</FOLDERNAME>
+                    <File>SrcSvr\cSCCO\cSCCO.vbproj</File>
+                    <File>SrcSvr\eSCCO\eSCCO.vbproj</File>
+                </Folder>
+                <Folder>
+                    <FOLDERNAME>bin</FOLDERNAME>
+                </Folder>
+            </ProjectExplorer>
+        </Views>
+        <References>
+            <Reference>
+                <FILE>SrcSvr\cSCCO\cSCCO.vbproj</FILE>
+                <GUIDPROJECTID>{9C34CA61-9521-41D1-B94D-5685DB53A75C}</GUIDPROJECTID>
+            </Reference>
+            <Reference>
+                <FILE>SrcSvr\eSCCO\eSCCO.vbproj</FILE>
+                <GUIDPROJECTID>{A89E6030-5215-46E6-B5EB-B0A809F54994}</GUIDPROJECTID>
+            </Reference>
+        </References>
+    </GENERAL>
+</EFPROJECT>

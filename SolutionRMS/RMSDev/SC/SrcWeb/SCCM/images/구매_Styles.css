@@ -1,0 +1,481 @@
+/* ªı ¿• ¿¿øÎ «¡∑Œ±◊∑• «¡∑Œ¡ß∆Æ¿« ±‚∫ª CSS Ω∫≈∏¿œΩ√∆Æ¿‘¥œ¥Ÿ. */
+/* ¿˚  øÎ : SFAR Ω√Ω∫≈€ ±∏∏≈                             */
+/* ¿€º∫¿œ : 2003.01.30 By KimKS                              */
+
+A:link	{	
+	text-decoration:	none;
+	color:	#3333cc;
+	}	
+		
+A:visited	{	
+	text-decoration:	none;
+	color:	#333399;
+	}	
+		
+A:active	{	
+	text-decoration:	none;
+	color:	#333399;
+	}	
+		
+A:hover	{	
+	text-decoration:	underline;
+	color:	#3333cc;
+	}
+
+.FONTBASE
+{
+    FONT-SIZE: 9pt
+}
+.DefClass
+{
+    FONT-FAMILY: ±º∏≤√º;
+    FONT-SIZE: 9pt
+}
+
+BODY.BASE
+{
+	font-size: 9pt; 
+	margin: 0pt 0pt 0pt 5pt;
+	color: black;
+	font-family: ±º∏≤√º;
+	background-color: white;
+}
+
+/* ---------------------- */
+/* ¿‘∑¬ ƒ¡∆≤∑Œø° ¥Î«— CSS */
+/* ---------------------- */
+INPUT.INPUT
+{
+    BACKGROUND-COLOR: white;
+    COLOR: black;
+    FONT-FAMILY: ±º∏≤√º,±º∏≤,Arial;
+    FONT-SIZE: 9pt;
+    PADDING-TOP: 1pt;
+    TEXT-ALIGN: center;
+    height: 22px;
+}
+INPUT.INPUT_L
+{
+    BACKGROUND-COLOR: white;
+    COLOR: black;
+    FONT-FAMILY: ±º∏≤√º;
+    FONT-SIZE: 9pt;
+    PADDING-TOP: 1pt;
+    TEXT-ALIGN: left;
+    height: 22px;
+}
+INPUT.INPUT_R
+{
+    BACKGROUND-COLOR: white;
+    COLOR: black;
+    FONT-FAMILY: ±º∏≤√º;
+    FONT-SIZE: 9pt;
+    PADDING-TOP: 1pt;
+    TEXT-ALIGN: right;
+    height: 22px;
+}
+INPUT.NOINPUT
+{
+	font-size: 9pt;
+	cursor: default;
+	padding-top: 1pt;
+	font-family: ±º∏≤√º;
+	height: 22px;
+	background-color: transparent;
+	text-align: center;
+}
+INPUT.NOINPUT_L
+{
+	font-size: 9pt;
+	cursor: default;
+	padding-top: 1pt;
+	font-family: ±º∏≤√º;
+	height: 22px;
+	background-color: transparent;
+    TEXT-ALIGN: left
+}
+INPUT.NOINPUT_R
+{
+	font-size: 9pt;
+	cursor: default;
+	padding-top: 1pt;
+	font-family: ±º∏≤√º;
+	height: 22px;
+	background-color: transparent;
+    TEXT-ALIGN: right
+}
+INPUT.NOINPUTB
+{
+	border-right: #ccccff 1px solid;
+	border-top: #ccccff 1px solid;
+	font-size: 9pt;
+	border-left: #ccccff 1px solid;
+	cursor: default;
+	padding-top: 1pt;
+	border-bottom: #ccccff 1px solid;
+	font-family: ±º∏≤√º;
+	height: 22px;
+	background-color: transparent;
+	text-align: center;
+}
+INPUT.NOINPUTB_L
+{
+	border-right: #ccccff 1px solid;
+	border-top: #ccccff 1px solid;
+	font-size: 9pt;
+	border-left: #ccccff 1px solid;
+	cursor: default;
+	padding-top: 1pt;
+	border-bottom: #ccccff 1px solid;
+	font-family: ±º∏≤√º;
+	height: 22px;
+	background-color: transparent;
+    TEXT-ALIGN: left
+}
+INPUT.NOINPUTB_R
+{
+	border-right: #ccccff 1px solid;
+	border-top: #ccccff 1px solid;
+	font-size: 9pt;
+	border-left: #ccccff 1px solid;
+	cursor: default;
+	padding-top: 1pt;
+	border-bottom: #ccccff 1px solid;
+	font-family: ±º∏≤√º;
+	height: 22px;
+	background-color: transparent;
+    TEXT-ALIGN: right;
+}
+INPUT.NOINPUTL
+{
+	border-right: #ccccff 1px;
+	border-top: #ccccff 1px;
+	font-size: 9pt;
+	border-left: #ccccff 1px;
+	cursor: default;
+	padding-top: 1pt;
+	border-bottom: #ccccff 1px;
+	font-family: ±º∏≤√º;
+	height: 22px;
+	background-color: transparent;
+	text-align: center;
+}
+INPUT.NOINPUTL_L
+{
+	border-right: #ccccff 1px;
+	border-top: #ccccff 1px;
+	font-size: 9pt;
+	border-left: #ccccff 1px;
+	cursor: default;
+	padding-top: 1pt;
+	border-bottom: #ccccff 1px;
+	font-family: ±º∏≤√º;
+	height: 22px;
+	background-color: transparent;
+    TEXT-ALIGN: left
+}
+INPUT.NOINPUTL_R
+{
+	border-right: #ccccff 1px;
+	border-top: #ccccff 1px;
+	font-size: 9pt;
+	border-left: #ccccff 1px;
+	cursor: default;
+	padding-top: 1pt;
+	border-bottom: #ccccff 1px;
+	font-family: ±º∏≤√º;
+	height: 22px;
+	background-color: transparent;
+    TEXT-ALIGN: right;
+}
+TEXTAREA.INPUT
+{
+    FONT-FAMILY: ±º∏≤√º;
+    FONT-SIZE: 9pt;
+}
+TEXTAREA.NOINPUT
+{
+    FONT-FAMILY: ±º∏≤√º;
+    FONT-SIZE: 9pt;
+	background-color: transparent;
+}
+SELECT.INPUT
+{
+    FONT-FAMILY: ±º∏≤√º;
+    FONT-SIZE: 9pt;
+	height: 22px;
+}
+SELECT.NOINPUT
+{
+	font-size: 9pt;
+	font-family: ±º∏≤√º;
+	height: 22px;
+	background-color: transparent;
+}
+
+/* ---------------------- */
+/* πˆ∆∞ ƒ¡∆≤∑Œø° ¥Î«— CSS */
+/* ---------------------- */
+INPUT.BTNBASE
+{
+    BACKGROUND-COLOR: #dedffa;
+    BORDER-BOTTOM: #101130 1px solid;
+    BORDER-LEFT: #101130 1px solid;
+    BORDER-RIGHT: #101130 1px solid;
+    BORDER-TOP: #101130 1px solid;
+	font-family: ±º∏≤√º;
+	font-size: 9pt;
+	color: black;
+	padding-top: 2px;
+    CURSOR: hand;
+    HEIGHT: 16px;
+	text-align: center;
+}
+INPUT.BUTTON
+{
+	border-right: silver thin outset;
+	border-top: silver thin outset;
+	border-left: silver thin outset;
+	border-bottom: silver thin outset;
+	background-color: #ebf1f8;
+	font-size: 9pt;
+	cursor: hand;
+	color: black;
+	padding-top: 2px;
+	font-family: ±º∏≤√º;
+	height: 16pt;
+	text-align: center;
+}
+IMG.BUTTON
+{
+	cursor: hand;
+	background-color: transparent;
+}
+INPUT.BTNTABON
+{
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; 
+	WIDTH: 100px; HEIGHT: 26px; 
+	PADDING-TOP: 7px;  
+	BACKGROUND-REPEAT: no-repeat; 
+	font-size: 9pt;
+	cursor: hand;
+	color: black;
+	font-family: ±º∏≤√º;
+	text-align: center;
+}
+INPUT.BTNTAB
+{
+	border-right: 0px;
+	border-top: 0px;
+	font-size: 9pt;
+	margin: 0px;
+	border-left: 0px;
+	width: 100px;
+	cursor: hand;
+	color: black;
+	padding-top: 7px;
+	border-bottom: 0px;
+	background-repeat: no-repeat;
+	font-family: ±º∏≤√º;
+	height: 26px;
+	text-align: center;
+}
+
+/* ---------------------- */
+/*   «¡∑π¿”ø° ¥Î«— CSS    */
+/* ---------------------- */
+TABLE.DATA
+{
+	BORDER-RIGHT: #BDDFB9 0px solid; 
+	BORDER-TOP: #BDDFB9 0px solid; 
+	BORDER-LEFT: #BDDFB9 0px solid; 
+	BORDER-BOTTOM: #BDDFB9 0px solid;
+	background : white; /*#E2E3EE;*/
+}
+TABLE.LIST
+{
+	BORDER-RIGHT: #BDDFB9 1px solid; 
+	BORDER-TOP: #BDDFB9 1px solid; 
+	BORDER-LEFT: #BDDFB9 1px solid; 
+	BORDER-BOTTOM: #BDDFB9 1px solid;
+	background : #E2E3EE;
+}
+TABLE.KEY
+{
+	font-size: 9pt;
+	color: black;
+	font-family: ±º∏≤√º;
+	background-color: #eeeeee;
+}
+
+/* ---------------------- */
+/* «¡∑π¿” Cellø° ¥Î«— CSS */
+/* ---------------------- */
+TD.KEYFRAME
+{
+	font-size: 9pt;
+	color: black;
+	font-family: ±º∏≤√º;
+	background-color: #eeeeee;
+	text-align: center;
+}
+TD.DATAFRAME
+{
+    BACKGROUND-COLOR: white; /*#e2eeec;*/
+    COLOR: black;
+    FONT-FAMILY: ±º∏≤√º;
+    FONT-SIZE: 9pt;
+    TEXT-ALIGN: center
+}
+TD.LISTFRAME
+{
+    BACKGROUND-COLOR: white; /*#eeeeee;*/
+    COLOR: black;
+    FONT-FAMILY: ±º∏≤√º;
+    FONT-SIZE: 9pt;
+    TEXT-ALIGN: center;
+    
+}
+TD.PAGEFRAME
+{
+    BACKGROUND-COLOR: white;
+    COLOR: #666666;
+    FONT-FAMILY: ±º∏≤√º;
+    FONT-SIZE: 9pt;
+    TEXT-ALIGN: center;
+	height: 25;   
+}
+TD.BRANCHFRAME
+{
+    BACKGROUND-COLOR: white;
+    COLOR: black;
+    FONT-FAMILY: ±º∏≤√º;
+    FONT-SIZE: 9pt;
+    TEXT-ALIGN: right;
+}
+TD.TOPSPLIT
+{
+	font-size: 9pt;
+	color: black;
+	font-family: ±º∏≤√º;
+	background-color: white;
+	text-align: center;
+	height:10;
+}
+TD.BODYSPLIT
+{
+	font-size: 9pt;
+	color: black;
+	font-family: ±º∏≤√º;
+	background-color: white;
+	text-align: center;
+	height:5;
+}
+TD.BOTTOMSPLIT
+{
+	font-size: 9pt;
+	color: black;
+	font-family: ±º∏≤√º;
+	background-color: white;
+	text-align: center;
+	height:10;
+}
+
+/* -------------------------- */
+/*   List Tableø° ¥Î«— CSS    */
+/* -------------------------- */
+TR.HEADER
+{
+	font-size: 9pt;
+	color: #666666;
+	font-family: ±º∏≤√º;
+	background-color: #BDDFB9;
+	text-align: center;
+	height:23;
+}
+TR.ODDROW
+{
+	font-size: 9pt;
+	font-family: ±º∏≤√º;
+	height: 16pt;
+	background-color: #f9f9fe;
+	text-align: center;
+}
+TR.EVENROW
+{
+	font-size: 9pt;
+	font-family: ±º∏≤√º;
+	height: 16pt;
+	background-color: #F4F7F4;
+	text-align: center;
+}
+TD.HEADER
+{
+	font-size: 9pt;
+	color: #666666;
+	font-family: ±º∏≤√º;
+	background-color: #BDDFB9;
+	text-align: center;
+}
+TR.TABBAR
+{
+	background-color:#D6D6D6; /*"#5277e6";*/
+	height:3;
+}
+
+/* ----------------------------------- */
+/*   ∞¢ «¡∑π¿” ≥ª∫Œ Cellø° ¥Î«— CSS    */
+/* ----------------------------------- */
+TD.GROUP
+{
+	font-size: 9pt;
+	color: #666666;
+	font-family: ±º∏≤√º;
+	background-color: #BDDFB9;
+	text-align: center;
+}
+TD.LABELKEY
+{
+    BACKGROUND-COLOR: papayawhip;
+    COLOR: #666666;
+    FONT-FAMILY: ±º∏≤√º;
+    FONT-SIZE: 9pt;
+    TEXT-ALIGN: center;
+    height:19px;
+}
+TD.KEY
+{
+	font-family: ±º∏≤√º;
+	font-size: 9pt;
+    TEXT-ALIGN: right;
+	padding-right: 5px;
+}
+TD.LABEL
+{
+	padding-right: 5px;
+	font-size: 9pt;
+	color: #666666;
+	font-family: ±º∏≤√º;
+	height: 19px;
+	background-color: #E1EEE3;
+	text-align: right;
+}
+TD.DATA
+{
+	padding-left: 5px;
+	font-size: 9pt;
+	color: #666666;
+	font-family: ±º∏≤√º, 'Times New Roman';
+	height: 19pt;
+	background-color: #F1F7F2;
+	text-align: left;
+}
+TD.TITLE
+{
+	font-weight: bold;
+	font-size: 12px;
+	color: #666666;
+	font-family: "µ∏øÚ";
+	text-align: left;
+    HEIGHT: 19pt;
+}
