@@ -18,7 +18,7 @@ Imports SCGLUtil.cbSCGLErr          '오류처리 클래스
 Imports SCGLUtil.cbSCGLXml          'XML처리 클래스
 Imports SCGLUtil.cbSCGLUtil         '기타유틸리티 클래스
 Imports eMDCO                       '엔터티 추가
- 
+
 ' 엔티티 클래스 사용시 해당 엔티티 클래스의 프로젝트를 참조한 후 Imports 하십시요. 
 ' Imports 엔티티프로젝트
 
